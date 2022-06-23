@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Project/OneTextKt/app/src/main/res/drawable/ic_palette.xml" value="0.265625" />
+        <entry key="..\:/Android Project/OneTextKt/app/src/main/res/drawable/ic_picture.xml" value="0.265625" />
+        <entry key="..\:/Android Project/OneTextKt/app/src/main/res/layout/card_style_1.xml" value="0.14764492753623187" />
+        <entry key="..\:/Android Project/OneTextKt/app/src/main/res/layout/card_style_2.xml" value="0.14764492753623187" />
+        <entry key="..\:/Android Project/OneTextKt/app/src/main/res/layout/card_style_4.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
