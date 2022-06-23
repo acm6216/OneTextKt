@@ -1,0 +1,35 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AboutActivity">
+
+    <cn.guo.onetext.ui.view.CoordinatorAppBarLayout
+        android:layout_width="match_parent"
+        app:liftOnScroll="true"
+        app:liftOnScrollTargetViewId="@id/recycler_view"
+        android:layout_height="wrap_content"
+        android:background="?colorAppBarSurface"
+        android:theme="?actionBarTheme">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:popupTheme="?actionBarPopupTheme"
+            app:titleTextColor="?attr/colorControlNormal" />
+
+    </cn.guo.onetext.ui.view.CoordinatorAppBarLayout>
+
+    <cn.guo.onetext.ui.view.CoordinatorScrollingFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:name="cn.guo.onetext.preference.AboutPreference"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="about" />
+    </cn.guo.onetext.ui.view.CoordinatorScrollingFrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

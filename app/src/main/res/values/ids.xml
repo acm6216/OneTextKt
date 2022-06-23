@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fab" type="id"/>
+    <item name="toolbar" type="id"/>
+    <item name="appbar" type="id"/>
+    <item name="tab" type="id"/>
+    <item name="view_pager" type="id"/>
+    <item name="content_layout" type="id"/>
+
+    <!--activity splash-->
+    <item name="splash_top" type="id"/>
+    <item name="splash_bottom" type="id"/>
+
+    <!--activity main-->
+    <item name="main_card_root" type="id"/>
+    <item name="main_sliding_up" type="id"/>
+
+    <!--card style-->
+    <item name="card_mark_text" type="id"/>
+    <item name="card_heart" type="id"/>
+    <item name="card_text_source" type="id"/>
+    <item name="card_text_date" type="id"/>
+    <item name="card_text_author" type="id"/>
+    <item name="card_text_author_felt" type="id"/>
+    <item name="card_text_content_bottom" type="id"/>
+    <item name="card_text_content" type="id"/>
+    <item name="card_text_content_top" type="id"/>
+    <item name="card_temps" type="id"/>
+    <item name="card_svg" type="id"/>
+    <item name="card_image_background" type="id"/>
+    <item name="card_shot" type="id"/>
+    <item name="card_background_color" type="id"/>
+
+    <!--open source-->
+    <item name="recycler_open_source" type="id"/>
+
+    <!--action-->
+    <item name="action_test" type="id"/>
+    <item name="action_about" type="id"/>
+    <item name="action_settings" type="id"/>
+    <item name="action_history" type="id"/>
+    <item name="action_delete" type="id"/>
+
+    <!--doodle-->
+    <item name="draw_board_view" type="id"/>
+    <!--<item name="" type="id"/>-->
+
+    <item name="history_recycler" type="id"/>
+</resources>

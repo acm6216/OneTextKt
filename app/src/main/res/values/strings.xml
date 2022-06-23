@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">OneTextKt</string>
+
+    <!--action-->
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="action_history">历史记录</string>
+    <string name="action_delete">删除</string>
+
+    <!--transitionName-->
+    <string name="transitionName_content">content</string>
+    <string name="transitionName_author">author</string>
+    <string name="transitionName_source">source</string>
+    <string name="transitionName_date">date</string>
+
+    <!--card style-->
+    <string name="default_mark_text">一个文图 @</string>
+    <string name="default_mark">一个文图 @ Guo.CN</string>
+
+    <!--history-->
+    <string name="activity_history_title">历史记录</string>
+
+    <!--settings-->
+    <string name="activity_settings_title">设置</string>
+    <string name="set_dark_theme_title">黑暗模式</string>
+    <string name="set_dark_theme_enable_title">开启</string>
+    <string name="set_dark_theme_enable_key">dark_theme_enable_key</string>
+
+    <!--set save-->
+    <string name="set_save">保存</string>
+    <string name="set_save_subtitle">宽高自动适应</string>
+    <string name="set_save_height">保存为大图</string>
+    <string name="set_save_state">同步到相册</string>
+    <string name="set_save_state_subtitleOn">保存后同步到相册</string>
+    <string name="set_save_state_subtitleOff">仅保存，手动导出到相册</string>
+    <string name="set_save_height_subtitle">宽高等于屏幕尺寸,可用于壁纸</string>
+    <string name="set_key_save">save</string>
+    <string name="set_key_save_height">save_height</string>
+    <string name="set_key_save_state">save_state</string>
+
+    <!--set card-->
+    <string name="set_card">卡片</string>
+    <string name="set_card_style">风格</string>
+    <string name="set_card_heart_root">显示头像</string>
+    <string name="set_card_heart">设置头像</string>
+    <string name="set_card_heart_size">头像大小</string>
+    <string name="set_card_background">背景</string>
+    <string name="set_card_background_color">背景颜色</string>
+    <string name="set_card_background_image">背景图片</string>
+    <string name="set_card_background_mode">背景应用模式</string>
+    <string name="set_card_background_image_blur">图片模糊</string>
+    <string name="set_card_save">保存图片</string>
+    <string name="set_card_blur">背景模糊</string>
+    <string name="set_key_card_style">card_style</string>
+    <string name="set_key_card_heart_root">card_heart_root</string>
+    <string name="set_key_card_heart">card_heart</string>
+    <string name="set_key_card_heart_size">card_heart_size</string>
+    <string name="set_key_background_color">background_color</string>
+    <string name="set_key_background_image">background_image</string>
+    <string name="set_key_background_blur">background_blur</string>
+    <string name="set_key_background_apply_mode">background_apply_mode</string>
+
+    <!--set text-->
+    <string name="set_text">文本</string>
+    <string name="set_text_content_mode">样式文本</string>
+    <string name="set_text_content_mode_on">显示输入的文本。</string>
+    <string name="set_text_content_mode_off">显示默认文本。</string>
+    <string name="set_text_sentence">来个句子</string>
+    <string name="set_text_sentence_subTitle">来自：加·译文《玛格丽塔小镇》</string>
+    <string name="set_text_color">全局文字颜色</string>
+    <string name="set_text_font">字体</string>
+    <string name="set_text_font_apply">字体应用模式</string>
+    <string name="set_text_content">句子</string>
+    <string name="set_text_content_default">默认值:18/max = 40</string>
+    <string name="set_text_author">作者</string>
+    <string name="set_text_author_default">默认值:14/max = 30</string>
+    <string name="set_text_from">来源</string>
+    <string name="set_text_from_default">默认值:14/max = 30</string>
+    <string name="set_text_time">时间</string>
+    <string name="set_text_time_default">默认值:14/max = 30</string>
+    <string name="set_text_lineSpacingDescriptor">首行缩进</string>
+    <string name="set_text_lineSpacingDescriptor_value">若影响格式可用空格代替</string>
+    <string name="set_key_text_content_mode">text_content_mode</string>
+    <string name="set_key_text_sentence">text_sentence</string>
+    <string name="set_key_text_color">text_color</string>
+    <string name="set_key_text_size_content">text_size_content</string>
+    <string name="set_key_text_size_author">text_size_author</string>
+    <string name="set_key_text_size_from">text_size_from</string>
+    <string name="set_key_text_size_time">text_size_time</string>
+    <string name="set_key_text_font">text_font</string>
+    <string name="set_key_text_font_apply">text_font_apply</string>
+    <string name="set_key_text_format_align">text_format_align</string>
+
+    <!--set 杂项-->
+    <string name="set_other">杂项</string>
+    <string name="set_other_icon">显示一个图标</string>
+    <string name="set_other_icon_selection">选择图标</string>
+    <string name="set_other_refresh">重置</string>
+    <string name="set_other_refresh_content">恢复默认参数</string>
+    <string name="set_other_mark">显示水印</string>
+    <string name="set_other_mark_edit">添加水印</string>
+    <string name="set_other_mark_color">水印颜色</string>
+    <string name="set_other_mark_color_value">防止设置背景后水印不明显</string>
+    <string name="set_key_other_icon">other_icon</string>
+    <string name="set_key_other_refresh">other_refresh</string>
+    <string name="set_key_other_icon_selection">other_icon_selection</string>
+    <string name="set_key_other_mark">other_mark</string>
+    <string name="set_key_other_mark_edit">other_mark_edit</string>
+    <string name="set_key_other_mark_color">other_mark_color</string>
+
+    <!--set help-->
+    <string name="set_help">帮助</string>
+    <string name="set_help_text">文本输入</string>
+    <string name="set_help_text_value">如果不小心设置了空文本，可从“文本选项卡”点击对应的文本尺寸调整区域打开输入框。</string>
+    <string name="set_help_text_color">文本颜色</string>
+    <string name="set_help_text_color_value">需要调整单个文本颜色，可从“文本选项卡”点击对应的文本尺寸调整区域打开输入框，方可调整。</string>
+    <string name="set_help_text_font">文本字体</string>
+    <string name="set_help_text_font_value">你可以将自己的字体文件放在 /Guo/font/ 目录下，app运行时会自动扫描。</string>
+    <string name="set_help_state_change">背景拉伸</string>
+    <string name="set_help_state_change_value">如果文本或文本尺寸变更后导致背景图片拉伸，则需重新选择图片。</string>
+    <string name="set_help_background">透明背景</string>
+    <string name="set_help_background_value">如需保留透明通道，将卡片和整个界面背景设置为透明即可。默认保留，不自动填充，如不需要，设置任意不含透明度的背景色即可。</string>
+    <string name="set_help_color_picker">取色器</string>
+    <string name="set_help_color_picker_value">上拖动条：颜色选取，左边黑色，右边白色。\n下拖动条：透明度调整，左边完全透明，右边不透明。\n色盘中间是白色。</string>
+    <string name="set_help_other">其他</string>
+
+    <!--set mini program-->
+    <string name="set_mini_app">小程序</string>
+    <string name="set_mini_app_doodle">涂鸦</string>
+    <string name="set_mini_app_h_wallpaper">原生氢壁纸</string>
+    <string name="set_mini_app_text">文字渐变</string>
+    <string name="set_mini_app_letter_style">日历书签</string>
+
+    <string name="activity_clip_title">图片裁剪</string>
+    <!--about-->
+    <string name="activity_about_title">关于</string>
+    <string name="about_key_version">about_version</string>
+    <string name="about_key_star">about_star</string>
+    <string name="about_key_info">about_info</string>
+    <string name="about_key_share">about_share</string>
+    <string name="about_key_developer">about_developer</string>
+    <string name="about_key_developer_yjr">about_developer_yjr</string>
+    <string name="about_key_tester">about_tester</string>
+    <string name="about_version">版本</string>
+    <string name="about_app">一个“图文”生成利器\n轻量、简洁遵循 Material Design</string>
+    <string name="about_author">开发者</string>
+    <string name="about_author_name">岑小缘</string>
+    <string name="about_author_name_yjr">弈艽苒</string>
+    <string name="about_author_location">GuiZhou,China</string>
+    <string name="about_email">邮箱</string>
+    <string name="about_email_value">2103813720@qq.com</string>
+    <string name="about_email_value_yjr">1667684459@qq.com</string>
+    <string name="about_other">其他</string>
+    <string name="about_other_share">分享给朋友</string>
+    <string name="about_other_star">给个好评吧</string>
+    <string name="about_develop">\nGuo.CN\nDeveloper</string>
+    <string name="about_develop_info">湖工 网络1803</string>
+    <string name="about_github">开源库</string>
+    <string name="about_github_value">查看项目使用到的开源库</string>
+
+    <!--open source-->
+    <string name="activity_open_source_title">使用到的开源库</string>
+
+    <string name="action_clip">裁剪</string>
+    <string name="msg_camera_invalid_permission_denied">无法打开相机，可能是权限被拒绝</string>
+    <string name="msg_camera_invalid_initial_failed">相机初始化失败，无法打开相机</string>
+    <string name="msg_camera_invalid_unknown_error">无法打开相机，未知错误</string>
+    <string name="msg_could_not_save_photo">无法保存图片</string>
+    <string name="msg_clipping_image">正在裁剪图片</string>
+
+    <string name="activity_not_found">未找到可处理此操作的应用</string>
+
+</resources>

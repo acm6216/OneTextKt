@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.SettingsActivity">
+
+
+    <cn.guo.onetext.ui.view.CoordinatorAppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:liftOnScrollTargetViewId="@id/recycler_view"
+        app:liftOnScroll="true"
+        android:background="?colorAppBarSurface"
+        android:theme="?actionBarTheme">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="?actionBarPopupTheme" />
+
+    </cn.guo.onetext.ui.view.CoordinatorAppBarLayout>
+    <cn.guo.onetext.ui.view.CoordinatorScrollingFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            android:name="cn.guo.onetext.preference.SettingsPreference"
+            android:tag="settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </cn.guo.onetext.ui.view.CoordinatorScrollingFrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

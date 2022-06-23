@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/app_name"
+        android:key="@string/about_key_info"
+        android:summary="@string/about_app"/>
+    <Preference android:title="@string/about_version"
+        android:key="@string/about_key_version"
+        android:icon="@drawable/ic_alert"/>
+    <Preference android:icon="@drawable/ic_github"
+        android:title="@string/about_github"
+        android:summary="@string/about_github_value">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="cn.guo.onetext.activity.OpenSourceActivity"
+            android:targetPackage="cn.guo.onetext" />
+    </Preference>
+    <PreferenceCategory android:title="@string/about_author">
+        <Preference android:title="@string/about_author_name"
+            android:summary="@string/about_author_location"
+            android:key="@string/about_key_developer"
+            android:icon="@drawable/ic_account"/>
+        <Preference
+            android:title="@string/about_email"
+            android:summary="@string/about_email_value"
+            android:icon="@drawable/ic_email"/>
+        <!---->
+        <Preference
+            app:key="@string/about_key_developer_yjr"
+            app:allowDividerAbove="true"
+            android:title="@string/about_author_name_yjr"
+            android:summary="@string/about_author_location"/>
+        <Preference
+            android:title="@string/about_email"
+            android:summary="@string/about_email_value_yjr"
+            android:icon="@drawable/ic_email"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about_other">
+        <Preference android:title="@string/about_other_star"
+            android:key="@string/about_key_star"
+            android:icon="@drawable/ic_star"/>
+        <Preference android:title="@string/about_other_share"
+            android:key="@string/about_key_share"
+            android:icon="@drawable/ic_forum"/>
+    </PreferenceCategory>
+</PreferenceScreen>

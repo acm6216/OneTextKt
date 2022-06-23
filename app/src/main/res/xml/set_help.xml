@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false">
+
+    <Preference
+        android:summary="@string/set_help_text_value"
+        android:title="@string/set_help_text"
+        app:iconSpaceReserved="false" />
+    <Preference
+        android:summary="@string/set_help_text_color_value"
+        android:title="@string/set_help_text_color"
+        app:iconSpaceReserved="false" />
+    <Preference
+        android:summary="@string/set_help_text_font_value"
+        android:title="@string/set_help_text_font"
+        app:iconSpaceReserved="false" />
+    <Preference
+        android:summary="@string/set_help_state_change_value"
+        android:title="@string/set_help_state_change"
+        app:iconSpaceReserved="false" />
+    <Preference
+        android:summary="@string/set_help_background_value"
+        android:title="@string/set_help_background"
+        app:iconSpaceReserved="false" />
+    <Preference
+        android:summary="@string/set_help_color_picker_value"
+        android:title="@string/set_help_color_picker"
+        app:iconSpaceReserved="false" />
+
+</PreferenceScreen>

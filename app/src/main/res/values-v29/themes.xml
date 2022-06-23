@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V29.Theme" parent="Platform.V27.Theme">
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+    <style name="Platform.Theme" parent="Platform.V29.Theme" />
+
+    <style name="Platform.V29.Theme.Immersive" parent="Platform.V28.Theme.Immersive">
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+    <style name="Platform.Theme.Immersive" parent="Platform.V29.Theme.Immersive" />
+</resources>

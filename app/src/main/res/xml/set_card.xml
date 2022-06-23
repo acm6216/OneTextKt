@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <rikka.preference.SimpleMenuPreference
+        android:entries="@array/style_list"
+        android:entryValues="@array/style_list"
+        android:icon="@drawable/ic_palette"
+        android:key="@string/set_key_card_style"
+        android:title="@string/set_card_style"
+        app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:icon="@drawable/ic_account"
+        android:key="@string/set_key_card_heart_root"
+        android:title="@string/set_card_heart_root" />
+    <Preference
+        android:dependency="@string/set_key_card_heart_root"
+        android:key="@string/set_key_card_heart"
+        android:title="@string/set_card_heart" />
+    <cn.guo.onetext.preference.SeekBarPreference
+        app:showSeekBarValue="true"
+        app:dependency="@string/set_key_card_heart_root"
+        android:key="@string/set_key_card_heart_size"
+        android:title="@string/set_card_heart_size"/>
+    <Preference
+        android:icon="@drawable/ic_fill"
+        android:key="@string/set_key_background_color"
+        android:title="@string/set_card_background_color" />
+    <Preference
+        android:icon="@drawable/ic_picture"
+        android:key="@string/set_key_background_image"
+        android:title="@string/set_card_background_image" />
+    <rikka.preference.SimpleMenuPreference
+        app:useSimpleSummaryProvider="true"
+        android:entries="@array/background_mode"
+        android:entryValues="@array/background_mode"
+        android:title="@string/set_card_background_mode"
+        android:key="@string/set_key_background_apply_mode"/>
+    <SwitchPreferenceCompat
+        android:icon="@drawable/ic_blur"
+        android:key="@string/set_key_background_blur"
+        android:title="@string/set_card_background_image_blur"
+        app:showSeekBarValue="true" />
+</PreferenceScreen>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen
+        app:iconSpaceReserved="false"
+        android:title="@string/set_mini_app_doodle"
+        android:enabled="true">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="cn.guo.onetext.activity.DoodleActivity"
+            android:targetPackage="cn.guo.onetext" />
+    </PreferenceScreen>
+    <!--<PreferenceScreen
+        app:iconSpaceReserved="false"
+        android:title="@string/set_mini_app_h_wallpaper"
+        android:enabled="true">
+        &lt;!&ndash;<intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="cn.guo.onetext.activity.HWallPaperActivity"
+            android:targetPackage="cn.guo.onetext" />&ndash;&gt;
+    </PreferenceScreen>
+    <PreferenceScreen
+        app:iconSpaceReserved="false"
+        android:title="@string/set_mini_app_text"
+        android:enabled="true">
+        &lt;!&ndash;<intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="cn.guo.onetext.activity.GradientColorTextActivity"
+            android:targetPackage="cn.guo.onetext" />&ndash;&gt;
+    </PreferenceScreen>
+    <PreferenceScreen
+        app:iconSpaceReserved="false"
+        android:title="@string/set_mini_app_letter_style"
+        android:enabled="true">
+        &lt;!&ndash;<intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="cn.guo.onetext.activity.LetterStyleActivity"
+            android:targetPackage="cn.guo.onetext" />&ndash;&gt;
+    </PreferenceScreen>-->
+</PreferenceScreen>

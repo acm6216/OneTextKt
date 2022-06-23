@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/card_background_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@id/card_shot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@id/card_image_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <cn.guo.onetext.widget.CardStyleView8
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:paddingLeft="40dp"
+                            android:paddingRight="48dp"
+                            android:paddingTop="48dp"
+                            android:paddingBottom="60dp"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@id/card_text_content"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="16dp"
+                                android:textSize="18sp"
+                                android:transitionName="@string/transitionName_content" />
+
+                            <TextView
+                                android:id="@id/card_text_source"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:transitionName="@string/transitionName_source" />
+                            <TextView
+                                android:id="@id/card_mark_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/default_mark"
+                                android:textSize="10sp"
+                                android:visibility="gone" />
+                        <RelativeLayout
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp">
+
+                            <cn.guo.onetext.widget.SvgAnimationView.SvgAnimationView
+                                android:id="@id/card_svg"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:layout_alignBottom="@id/card_temps"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="8dp"
+                                android:visibility="gone" />
+
+                            <LinearLayout
+                                android:animateLayoutChanges="true"
+                                android:id="@id/card_temps"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingBottom="@dimen/fab_margin"
+                                android:paddingTop="@dimen/fab_margin">
+
+                                <TextView
+                                    android:id="@id/card_text_content_top"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="left"
+                                    android:textSize="18sp"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@id/card_text_content_bottom"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="right"
+                                    android:textSize="18sp"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@id/card_text_author"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="16dp"
+                                    android:lineSpacingExtra="2dp"
+                                    android:transitionName="@string/transitionName_author" />
+
+                                <TextView
+                                    android:id="@id/card_text_author_felt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@id/card_text_date"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:transitionName="@string/transitionName_date"
+                                    android:visibility="gone" />
+
+                            </LinearLayout>
+
+                            <cn.guo.onetext.widget.CircleImageView
+                                android:id="@id/card_heart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+                        </cn.guo.onetext.widget.CardStyleView8>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="font_list">
+        <item>跟随系统</item>
+        <item>书记体</item>
+        <item>Aa一切关于你</item>
+        <item>云深不知处</item>
+        <item>那么多年</item>
+        <item>我不等你了</item>
+        <item>相思兑浓酒</item>
+        <item>美人篆</item>
+        <item>深海少女</item>
+        <item>美卡记事本</item>
+        <item>方正像素12</item>
+    </array>
+    <array name="background_mode">
+        <item>应用到卡片</item>
+        <item>应用到整个界面</item>
+    </array>
+    <array name="style_list">
+        <item>样式1</item>
+        <item>样式2</item>
+        <item>样式3</item>
+        <item>一言</item>
+        <item>网易云歌词</item>
+        <item>诺基亚复古风</item>
+        <item>Chrome 小恐龙</item>
+        <item>网易云评论</item>
+        <item>白</item>
+        <item>贝塞尔生长树</item>
+    </array>
+
+    <!--托条标题-->
+    <array name="textSizeTitleContent">
+        <item>句子</item>
+        <item>句子</item>
+        <item>信息</item>
+        <item>句子</item>
+        <item>歌词</item>
+        <item>讯息</item>
+        <item>标题</item>
+        <item>内容</item>
+        <item>内容</item>
+        <item>内容</item>
+    </array>
+    <array name="textSizeTitleAuthor">
+        <item>作者</item>
+        <item>作者</item>
+        <item>标题</item>
+        <item>昵称</item>
+        <item>歌手</item>
+        <item>Logo</item>
+        <item>错误信息</item>
+        <item></item>
+        <item>作者</item>
+        <item>作者</item>
+    </array>
+    <array name="textSizeTitleFrom">
+        <item>来源</item>
+        <item>昵称</item>
+        <item>状态</item>
+        <item>状态</item>
+        <item>状态</item>
+        <item></item>
+        <item>状态</item>
+        <item>来源</item>
+        <item>来源</item>
+        <item>来源</item>
+    </array>
+    <array name="textSizeTitleTime">
+        <item>时间</item>
+        <item>时间</item>
+        <item>时间</item>
+        <item>时间</item>
+        <item>时间</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+
+    <!--卡片默认内容-->
+    <array name="textDefaultContent">
+        <item>我感觉我们穷其一生都在不停错过彼此</item>
+        <item>我感觉我们穷其一生都在不停错过彼此</item>
+        <item>我感觉我们穷其一生都在不停错过彼此</item>
+        <item>我感觉我们穷其一生都在不停错过彼此</item>
+        <item>\n\n\n丑恶在于 赤子的胸怀\n难敌这纷扰世态 为理想或求生在捱</item>
+        <item>等睡进喜欢人的怀里就不熬夜了</item>
+        <item>未能找到你的女朋友</item>
+        <item>你那么鲜明，在我乏善可陈的岁月栩栩生辉。</item>
+        <item>你啊 你就一直那样\n总对重要的事只字不提\n然后摆出若无其事的表情\n一直孤单一个人</item>
+        <item>你啊 你就一直那样\n总对重要的事只字不提\n然后摆出若无其事的表情\n一直孤单一个人</item>
+    </array>
+    <array name="textDefaultAuthor">
+        <item>加·译文</item>
+        <item>加·译文</item>
+        <item>iMessage</item>
+        <item>summer</item>
+        <item>\n\n来自网易云音乐——不吐不快《不吐不快》\n歌手:张敬轩
+        </item>
+        <item>Logo</item>
+        <item>请尝试以下方法：\n· 检查身高，颜值和银行卡存款 \n· 重新降临到这个世界</item>
+        <item></item>
+        <item>- 新海诚 -</item>
+        <item>- 新海诚 -</item>
+    </array>
+    <array name="textDefaultSource">
+        <item>玛格丽特小镇</item>
+        <item>昵称</item>
+        <item>已送达</item>
+        <item>玛格丽特小镇</item>
+        <item>M U S I C   B R I N G   P E R S O N   S T R E N G T H</item>
+        <item></item>
+        <item>DESPOIT_NOT_ENOUGH_PAY_FOR_INTERNET</item>
+        <item>来自网易云音乐——\n歌手：小白🐏《人间不值得》下方评论</item>
+        <item>- 言叶之庭 -</item>
+        <item>- 言叶之庭 -</item>
+    </array>
+    <array name="textDefaultDate">
+        <item>今日</item>
+        <item>今日</item>
+        <item>今日</item>
+        <item>13:14</item>
+        <item>今日</item>
+        <item>今日</item>
+        <item>unknown</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="unknown">
+        <item></item>
+    </array>
+
+    <!--display head-->
+    <string-array name="display_head">
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <!--display icon-->
+    <string-array name="display_icon">
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+
+    <!--text default title-->
+    <string-array name="textDefaultTitleContent">
+        <item>句子</item>
+        <item>句子</item>
+        <item>信息</item>
+        <item>句子</item>
+        <item>歌词</item>
+        <item>讯息</item>
+        <item>标题</item>
+        <item>内容</item>
+        <item>内容</item>
+        <item>内容</item>
+    </string-array>
+    <string-array name="textDefaultTitleAuthor">
+        <item>作者</item>
+        <item>作者</item>
+        <item>标题</item>
+        <item>昵称</item>
+        <item>歌手</item>
+        <item>Logo</item>
+        <item>错误信息</item>
+        <item></item>
+        <item>作者</item>
+        <item></item>
+    </string-array>
+    <string-array name="textDefaultTitleSource">
+        <item>来源</item>
+        <item>昵称</item>
+        <item>状态</item>
+        <item>状态</item>
+        <item>状态</item>
+        <item></item>
+        <item>状态</item>
+        <item>来源</item>
+        <item>来源</item>
+        <item></item>
+    </string-array>
+    <string-array name="textDefaultTitleDate">
+        <item>时间</item>
+        <item>时间</item>
+        <item>时间</item>
+        <item>时间</item>
+        <item>时间</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <!--text size-->
+    <integer-array name="textDefaultSizeContent">
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>24</item>
+        <item>24</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+    </integer-array>
+    <integer-array name="textDefaultSizeAuthor">
+        <item>14</item>
+        <item>14</item>
+        <item>24</item>
+        <item>14</item>
+        <item>12</item>
+        <item>14</item>
+        <item>14</item>
+        <item>0</item>
+        <item>12</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="textDefaultSizeSource">
+        <item>14</item>
+        <item>14</item>
+        <item>12</item>
+        <item>12</item>
+        <item>10</item>
+        <item>0</item>
+        <item>0</item>
+        <item>10</item>
+        <item>12</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="textDefaultSizeDate">
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!--open source info-->
+    <string-array name="open_source_title">
+        <item>Material Design Icon</item>
+        <item>Sliding Up Panel</item>
+        <item></item>
+    </string-array>
+    <string-array name="open_source_info">
+        <item>Pictogrammers Free License
+
+\n\nThis icon collection is released as free, open source, and GPL friendly by
+the [Pictogrammers](http://pictogrammers.com/) icon group.
+\n\nYou may use it for commercial projects, open source projects, or anything really.
+
+\n\n# Icons: Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+Some of the icons are redistributed under the Apache 2.0 license. All other
+icons are either redistributed under their respective licenses or are
+distributed under the Apache 2.0 license.
+
+\n\n# Fonts: Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+All web and desktop fonts are distributed under the Apache 2.0 license. Web
+and desktop fonts contain some icons that are redistributed under the Apache
+2.0 license. All other icons are either redistributed under their respective
+licenses or are distributed under the Apache 2.0 license.
+
+\n\n# Code: MIT (https://opensource.org/licenses/MIT)
+The MIT license applies to all non-font and non-icon files.</item>
+        <item>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
+
+\n\nhttp://www.apache.org/licenses/LICENSE-2.0
+
+\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+
+        <item></item>
+    </string-array>
+    <string-array name="open_source_url">
+        <item>https://github.com/templarian/MaterialDesign</item>
+        <item>https://github.com/umano/AndroidSlidingUpPanel</item>
+        <item></item>
+    </string-array>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OpenSourceActivity">
+
+    <cn.guo.onetext.ui.view.CoordinatorAppBarLayout
+        android:id="@id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?colorAppBarSurface"
+        android:theme="?actionBarTheme"
+        app:liftOnScroll="true"
+        app:liftOnScrollTargetViewId="@id/scrollView">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:popupTheme="?actionBarPopupTheme"
+            app:titleTextColor="?attr/colorControlNormal" />
+    </cn.guo.onetext.ui.view.CoordinatorAppBarLayout>
+
+    <cn.guo.onetext.ui.view.CoordinatorScrollingLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollIndicators="bottom">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@id/recycler_open_source"
+                    android:overScrollMode="never"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </cn.guo.onetext.ui.view.CoordinatorScrollingLinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

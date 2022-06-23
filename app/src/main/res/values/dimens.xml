@@ -1,0 +1,42 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="card_margin">20dp</dimen>
+    <dimen name="item_Height">56dp</dimen>
+
+    <dimen name="card_re_top">24dp</dimen>
+    <dimen name="card_re_bottom">24dp</dimen>
+    <dimen name="card_re_left">8dp</dimen>
+    <dimen name="card_re_right">8dp</dimen>
+
+    <!--Alerts-->
+    <dimen name="alerter_padding_small">4dp</dimen>
+    <dimen name="alerter_padding_half">8dp</dimen>
+    <dimen name="alerter_padding_default">16dp</dimen>
+    <dimen name="alerter_alert_padding">30dp</dimen>
+    <dimen name="alerter_alert_negative_margin_top">-32dp</dimen>
+    <dimen name="alerter_progress_bar_size">2dp</dimen>
+
+    <dimen name="alerter_alert_min_height">64dp</dimen>
+    <dimen name="alerter_alert_max_height">84dp</dimen>
+    <dimen name="alerter_alert_icn_size">38dp</dimen>
+    <dimen name="alerter_alert_progress_size">32dp</dimen>
+
+    <!--Text sizes-->
+    <dimen name="alerter_text_small">14sp</dimen>
+    <dimen name="alerter_text_medium">18sp</dimen>
+    <dimen name="alerter_alert_view_padding_top">70dp</dimen>
+
+
+    <!--ColorPicker-->
+    <dimen name="default_slider_height">36dp</dimen>
+    <dimen name="default_slider_margin">24dp</dimen>
+    <dimen name="default_slider_bar_height">4dp</dimen>
+    <dimen name="default_slider_handler_radius">10dp</dimen>
+    <dimen name="default_padding_side">24dp</dimen>
+    <dimen name="default_preview_height">40dp</dimen>
+    <dimen name="default_preview_image_height">36dp</dimen>
+    <dimen name="default_margin_top">20dp</dimen>
+
+    <dimen name="padding_common">16dp</dimen>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ClipImageActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?colorAppBarSurface"
+        android:theme="?actionBarTheme">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="?actionBarPopupTheme" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <cn.guo.onetext.widget.clipimage.ClipImageView
+        android:id="@+id/clip_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:civClipCircle="false"
+        app:civClipPadding="@dimen/padding_common"
+        app:civClipRoundCorner="5dp"
+        app:civHeight="2"
+        app:civMaskColor="@color/viewfinder_mask"
+        app:civWidth="3"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

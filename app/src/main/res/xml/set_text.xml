@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat android:title="@string/set_text_content_mode"
+        app:defaultValue="true"
+        android:key="@string/set_key_text_content_mode"
+        android:summaryOff="@string/set_text_content_mode_off"
+        android:summaryOn="@string/set_text_content_mode_on"/>
+    <Preference
+        android:icon="@drawable/ic_shuffle"
+        android:key="@string/set_key_text_sentence"
+        app:summary="@string/set_text_sentence_subTitle"
+        android:title="@string/set_text_sentence" />
+    <Preference
+        android:icon="@drawable/ic_format_paint"
+        android:key="@string/set_key_text_color"
+        android:title="@string/set_text_color" />
+    <cn.guo.onetext.preference.SeekBarPreference
+        android:key="@string/set_key_text_size_content"
+        android:title="@string/set_text_content"
+        app:showSeekBarValue="true" />
+    <cn.guo.onetext.preference.SeekBarPreference
+        android:key="@string/set_key_text_size_author"
+        android:title="@string/set_text_author"
+        app:showSeekBarValue="true" />
+    <cn.guo.onetext.preference.SeekBarPreference
+        android:key="@string/set_key_text_size_from"
+        android:title="@string/set_text_from"
+        app:showSeekBarValue="true" />
+    <cn.guo.onetext.preference.SeekBarPreference
+        android:key="@string/set_key_text_size_time"
+        android:title="@string/set_text_time"
+        app:showSeekBarValue="true" />
+    <Preference
+        android:icon="@drawable/ic_font"
+        android:key="@string/set_key_text_font"
+        android:title="@string/set_text_font" />
+    <Preference
+        android:key="@string/set_key_text_font_apply"
+        android:title="@string/set_text_font_apply"/>
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:icon="@drawable/ic_format_align_right"
+        android:key="@string/set_key_text_format_align"
+        android:title="@string/set_text_lineSpacingDescriptor"
+        android:summary="@string/set_text_lineSpacingDescriptor_value"/>
+</PreferenceScreen>

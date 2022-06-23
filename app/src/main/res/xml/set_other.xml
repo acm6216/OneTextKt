@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:icon="@drawable/ic_image"
+        android:key="@string/set_key_other_icon"
+        android:title="@string/set_other_icon" />
+    <Preference
+        android:dependency="@string/set_key_other_icon"
+        android:key="@string/set_key_other_icon_selection"
+        android:title="@string/set_other_icon_selection" />
+    <Preference
+        app:enabled="false"
+        android:icon="@drawable/ic_refresh"
+        android:key="@string/set_key_other_refresh"
+        android:summary="@string/set_other_refresh_content"
+        android:title="@string/set_other_refresh" />
+    <SwitchPreferenceCompat
+        android:icon="@drawable/ic_mark"
+        android:key="@string/set_key_other_mark"
+        android:title="@string/set_other_mark" />
+    <Preference
+        android:dependency="@string/set_key_other_mark"
+        android:key="@string/set_key_other_mark_edit"
+        android:title="@string/set_other_mark_edit" />
+    <Preference
+        android:dependency="@string/set_key_other_mark"
+        android:key="@string/set_key_other_mark_color"
+        app:summary="@string/set_other_mark_color_value"
+        android:title="@string/set_other_mark_color" />
+</PreferenceScreen>
